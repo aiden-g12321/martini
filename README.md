@@ -1,2 +1,2 @@
 # martini
-A simple modular MCMC package. Intended to investigate statistical measures of simple distributions, not for intensive sampling.
+A simple MCMC package. Intended to investigate statistical measures of simple distributions, not for intensive sampling.

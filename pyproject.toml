@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "martini"
+version = "0.0.1"
+description = "A simple MCMC package. Intended to investigate statistical measures of simple distributions, not for intensive sampling."
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
